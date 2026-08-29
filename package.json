@@ -1,0 +1,14 @@
+{
+  "name": "tailorwala-root",
+  "version": "2.0.0",
+  "scripts": {
+    "dev:server": "npm run dev --prefix tailorwalabtech-main/Server",
+    "dev:client": "npm run dev --prefix tailorwalabtech-main/Client",
+    "dev": "npm run dev:server",
+    "seed": "npm run seed --prefix tailorwalabtech-main/Server",
+    "test:server": "npm test --prefix tailorwalabtech-main/Server",
+    "test": "npm run test:server",
+    "build": "npm run build --prefix tailorwalabtech-main/Client",
+    "lint": "npm run lint --prefix tailorwalabtech-main/Client"
+  }
+}
