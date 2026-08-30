@@ -1,14 +1,16 @@
 {
-  "name": "tailorwala-root",
+  "name": "tailorwala",
   "version": "2.0.0",
+  "description": "TailorWala - Online Custom Tailoring & Stitching Platform",
   "scripts": {
-    "dev:server": "npm run dev --prefix tailorwalabtech-main/Server",
-    "dev:client": "npm run dev --prefix tailorwalabtech-main/Client",
-    "dev": "npm run dev:server",
-    "seed": "npm run seed --prefix tailorwalabtech-main/Server",
-    "test:server": "npm test --prefix tailorwalabtech-main/Server",
+    "dev": "npm run dev --prefix Server",
+    "dev:server": "npm run dev --prefix Server",
+    "dev:client": "npm run dev --prefix Client",
+    "start": "npm start --prefix Server",
+    "seed": "npm run seed --prefix Server",
+    "test:server": "npm test --prefix Server",
     "test": "npm run test:server",
-    "build": "npm run build --prefix tailorwalabtech-main/Client",
-    "lint": "npm run lint --prefix tailorwalabtech-main/Client"
+    "build": "npm run build --prefix Client",
+    "lint": "npm run lint --prefix Client"
   }
 }
